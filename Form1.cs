@@ -12,16 +12,13 @@ namespace BlackJack
 {
     public partial class Form1 : Form
     {
-        
+       
+       
         public Form1()
         {
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            
-        }
         
         private void zabierzZetony(int ilosc)
         {
@@ -33,6 +30,7 @@ namespace BlackJack
         private void Zeton10_Click(object sender, EventArgs e)
         {
             zabierzZetony(10);
+         
         }
 
         private void Zeton25_Click(object sender, EventArgs e)
@@ -44,5 +42,6 @@ namespace BlackJack
         {
             zabierzZetony(50);
         }
+
     }
 }
