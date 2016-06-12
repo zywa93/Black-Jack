@@ -46,9 +46,9 @@
             this.Zeton10.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
             this.Zeton10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Zeton10.ForeColor = System.Drawing.Color.Transparent;
-            this.Zeton10.Location = new System.Drawing.Point(52, 411);
+            this.Zeton10.Location = new System.Drawing.Point(6, 333);
             this.Zeton10.Name = "Zeton10";
-            this.Zeton10.Size = new System.Drawing.Size(218, 142);
+            this.Zeton10.Size = new System.Drawing.Size(423, 258);
             this.Zeton10.TabIndex = 0;
             this.Zeton10.UseVisualStyleBackColor = false;
             this.Zeton10.Click += new System.EventHandler(this.Zeton10_Click);
@@ -61,9 +61,9 @@
             this.Zeton25.FlatAppearance.BorderSize = 0;
             this.Zeton25.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Zeton25.ForeColor = System.Drawing.Color.Transparent;
-            this.Zeton25.Location = new System.Drawing.Point(482, 411);
+            this.Zeton25.Location = new System.Drawing.Point(435, 333);
             this.Zeton25.Name = "Zeton25";
-            this.Zeton25.Size = new System.Drawing.Size(218, 142);
+            this.Zeton25.Size = new System.Drawing.Size(424, 258);
             this.Zeton25.TabIndex = 1;
             this.Zeton25.UseVisualStyleBackColor = false;
             this.Zeton25.Click += new System.EventHandler(this.Zeton25_Click);
@@ -74,9 +74,9 @@
             this.Zeton50.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Zeton50.FlatAppearance.BorderSize = 0;
             this.Zeton50.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Zeton50.Location = new System.Drawing.Point(965, 411);
+            this.Zeton50.Location = new System.Drawing.Point(853, 342);
             this.Zeton50.Name = "Zeton50";
-            this.Zeton50.Size = new System.Drawing.Size(218, 142);
+            this.Zeton50.Size = new System.Drawing.Size(424, 249);
             this.Zeton50.TabIndex = 2;
             this.Zeton50.UseVisualStyleBackColor = true;
             this.Zeton50.Click += new System.EventHandler(this.Zeton50_Click);
@@ -84,9 +84,9 @@
             // label1
             // 
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Monotype Corsiva", 60F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label1.Font = new System.Drawing.Font("Monotype Corsiva", 72F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(360, 185);
+            this.label1.Location = new System.Drawing.Point(358, 171);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(636, 137);
             this.label1.TabIndex = 3;
@@ -99,6 +99,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1289, 623);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Zeton50);
